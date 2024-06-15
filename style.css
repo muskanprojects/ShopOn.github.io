@@ -429,25 +429,28 @@ th:last-child{
 
 /*-------Media Query for menu------*/
 @media only screen and (max-width: 800px){
+    nav .logo{
+        width: 100px;
+    }
     nav ul{
         position: absolute;
-        top: 75%;
-        left: 0;
+        top: 65%;
+        right: 0;
         background: linear-gradient(rgba(40, 75, 39, 0.7),rgba(61, 102, 75, 0.7));
         color: #ffffff;
         width: 100%; 
+        height: auto;
         text-align: center;
         overflow: hidden; 
         max-height: 0;
         transition: max-height 0.5s;
        
     }
-    nav .logo{
-        width: 100px;
-    }
+
     nav ul li{
         display: block;
         font-size: 0.9rem;
+        
     }
     nav ul li a{
         color: #fff;
