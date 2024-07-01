@@ -457,33 +457,9 @@ th:last-child{
         font-size: 20px;
     
     }
-    /* nav ul{
-        position: absolute;
-        top: 70px;
-        left: 0px;
-        background: linear-gradient(rgba(40, 75, 39, 0.7),rgba(61, 102, 75, 0.7));
-        color: #ffffff;
-        width: 100%; 
-        overflow: hidden; 
-        transition: max-height 0.5s;
-        
-    }
-
-    nav ul li{
-        display: block;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-right: 50px;
-        padding: 0rem 0rem;
-        
-    }
-    nav ul li a{
-        color: #fff;
-    } */
     .menu-icon{
         display: block;
         cursor: pointer;
-        /*width: 30px;*/
     }
 }
  
@@ -515,11 +491,6 @@ th:last-child{
         display: none;
     }
 }
-
-
-/* --------- Example --------- */
- 
-
 
 
 
