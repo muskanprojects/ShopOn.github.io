@@ -434,34 +434,55 @@ th:last-child{
     }
     nav ul{
         position: absolute;
-        top: 15%;
+        top: 70px;
+        left: 0;
         right: 0;
         background: linear-gradient(rgba(40, 75, 39, 0.7),rgba(61, 102, 75, 0.7));
         color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        text-align: center; 
+        gap: 0;
+        overflow: hidden;
+        transition: all 0.5s;
+    }
+    
+    nav ul li{
+        display: block;
+        padding: 20px;
+    }
+    nav ul li a{
+        color: #fff;
+        font-size: 20px;
+    
+    }
+    /* nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        background: linear-gradient(rgba(40, 75, 39, 0.7),rgba(61, 102, 75, 0.7));
+        color: #ffffff;
         width: 100%; 
-        height: auto;
-        text-align: center;
         overflow: hidden; 
-        max-height: 0;
         transition: max-height 0.5s;
-       
+        
     }
 
     nav ul li{
         display: block;
-        font-size: 0.9rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 50px;
+        padding: 0rem 0rem;
         
     }
     nav ul li a{
         color: #fff;
-    }
+    } */
     .menu-icon{
         display: block;
         cursor: pointer;
-        width: 30px; 
-    }
-    .show-menu{
-        max-height: 60px;
+        /*width: 30px;*/
     }
 }
  
@@ -495,8 +516,8 @@ th:last-child{
 }
 
 
-
-
+/* --------- Example --------- */
+ 
 
 
 

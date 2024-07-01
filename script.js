@@ -1,8 +1,16 @@
 /*----------js for menu icon----------*/
 let MenuItems = document.getElementById("MenuItems");
    
+MenuItems.style.maxHeight = "0px";
+   
    function menutoggle(){
-    MenuItems.classList.toggle('show-menu');
+    if(MenuItems.style.maxHeight == "0px")
+      {
+         MenuItems.style.maxHeight = "300px";
+      }
+      else{
+         MenuItems.style.maxHeight = "0px";
+      }
    }
 
    /*----------js for product img----------*/
